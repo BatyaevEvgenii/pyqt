@@ -1,0 +1,85 @@
+2019-07-30 18:35:04,371 - INFO - Сервер запущен... localhost:8000
+2019-07-30 18:37:27,794 - INFO - Клиент подключился: 127.0.0.1:62888
+2019-07-30 18:37:42,805 - ERROR - Controller wwqqqwq not found
+2019-07-30 18:37:51,057 - INFO - Клиент подключился: 127.0.0.1:62982
+2019-07-30 18:38:01,358 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1564501081.358485, 'data': 'efqewq'}
+2019-07-30 18:41:10,354 - INFO - Клиент подключился: 127.0.0.1:63777
+2019-07-30 18:41:17,880 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1564501277.880496, 'data': 'start'}
+2019-07-31 14:45:07,599 - INFO - Сервер выключен.
+2019-07-31 19:51:53,472 - INFO - Сервер запущен... localhost:8000
+2019-07-31 19:52:00,966 - INFO - Клиент подключился: 127.0.0.1:62542
+2019-07-31 19:52:07,228 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1564591927.025678, 'data': 'test'}
+2019-07-31 19:52:07,228 - DEBUG - echo_controller: {'action': 'echo', 'time': 1564591927.025678, 'data': 'test'}
+2019-07-31 20:04:18,233 - INFO - Сервер выключен.
+2019-07-31 20:04:42,975 - INFO - Сервер запущен... localhost:8000
+2019-07-31 20:04:52,502 - INFO - Клиент подключился: 127.0.0.1:49234
+2019-07-31 20:05:10,788 - DEBUG - Controller servererror resolved with request: {'action': 'servererror', 'time': 1564592710.750906, 'data': 'test'}
+2019-07-31 20:10:14,637 - INFO - Сервер выключен.
+2019-07-31 20:10:20,276 - INFO - Сервер запущен... localhost:8000
+2019-07-31 20:10:25,041 - INFO - Клиент подключился: 127.0.0.1:50563
+2019-07-31 20:10:36,686 - DEBUG - Controller servererror resolved with request: {'action': 'servererror', 'time': 1564593036.576008, 'data': 'test', 'token': 'a9cc6ec387528dae0bfb8dc45e21121f70f493136258f0f626e2ff365575f535'}
+2019-07-31 20:10:36,686 - CRITICAL - Controller servererror error: Server error message
+2019-08-10 17:50:27,591 - INFO - Сервер запущен... localhost:8000
+2019-08-10 17:50:35,121 - INFO - Клиент подключился: 127.0.0.1:58167
+2019-08-10 17:50:39,955 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565448639.893036, 'data': 'test', 'token': 'd50cfeb34c25ae8ed43dc9b661a9d59ed8cdd393e23f375430bd3a70a6218b4d'}
+2019-08-10 17:50:39,956 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565448639.893036, 'data': 'test', 'token': 'd50cfeb34c25ae8ed43dc9b661a9d59ed8cdd393e23f375430bd3a70a6218b4d'}
+2019-08-10 18:09:23,237 - INFO - Сервер выключен.
+2019-08-10 18:10:09,999 - INFO - Сервер запущен... localhost:8000
+2019-08-10 18:10:13,278 - INFO - Клиент подключился: 127.0.0.1:62831
+2019-08-10 18:10:17,630 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565449817.611905, 'data': 'test', 'token': '68022a82edc90e12ac05833d7e34f561fe426b026c6724ddbb9b5c7d51bc3ce0'}
+2019-08-10 18:10:17,630 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565449817.611905, 'data': 'test', 'token': '68022a82edc90e12ac05833d7e34f561fe426b026c6724ddbb9b5c7d51bc3ce0'}
+2019-08-10 18:12:54,216 - INFO - Сервер выключен.
+2019-08-12 18:31:39,211 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:32:52,625 - INFO - Клиент подключился: 127.0.0.1:57284 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 57284)>]
+2019-08-12 18:33:54,487 - INFO - Сервер выключен.
+2019-08-12 18:34:49,905 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:34:54,573 - INFO - Клиент подключился: 127.0.0.1:58015 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58015)>]
+2019-08-12 18:35:45,073 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565624145.054345, 'data': 'test', 'token': 'fb89ddeaa3d086ebaebd0d2dce0ff392109beecbb8fc472009f96d1c7327130e'}
+2019-08-12 18:35:45,073 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565624145.054345, 'data': 'test', 'token': 'fb89ddeaa3d086ebaebd0d2dce0ff392109beecbb8fc472009f96d1c7327130e'}
+2019-08-12 18:35:45,074 - INFO - Клиент подключился: 127.0.0.1:58121 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000)>, <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58121)>]
+2019-08-12 18:38:52,992 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:39:09,021 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:39:22,354 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:39:46,360 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:40:11,094 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:40:57,443 - INFO - Сервер запущен... localhost:8000
+2019-08-12 18:49:16,953 - INFO - Сервер запущен... localhost:8000
+2019-08-12 19:00:10,808 - INFO - Сервер запущен... localhost:8000
+2019-08-12 19:00:48,089 - INFO - Сервер запущен... localhost:8000
+2019-08-12 19:01:05,492 - INFO - Клиент подключился: 127.0.0.1:50849 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 50849)>]
+2019-08-12 19:01:23,348 - ERROR - Controller усecho not found
+2019-08-12 19:01:56,815 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565625716.815118, 'data': 'test', 'token': 'cfbf121df49d8af7067f9af88e91b235935a80b9822070098cf8e9295e85f8a3'}
+2019-08-12 19:01:56,815 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565625716.815118, 'data': 'test', 'token': 'cfbf121df49d8af7067f9af88e91b235935a80b9822070098cf8e9295e85f8a3'}
+2019-08-12 19:02:33,311 - DEBUG - Controller servererror resolved with request: {'action': 'servererror', 'time': 1565625753.310892, 'data': 'test', 'token': '9eb81f3dd53d7d36a6fa6267c958b337f1a41237f5cee6f266792d1a3e9ea244'}
+2019-08-12 19:02:33,311 - CRITICAL - Controller servererror error: Server error message
+2019-08-12 19:02:58,260 - INFO - Клиент подключился: 127.0.0.1:51476 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 50849)>, <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 51476)>]
+2019-08-12 19:03:11,010 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565625791.010312, 'data': 'test', 'token': '341a73c1e14523de668d0e48baf0f9b6d08f5759245b67f5fbbe2a00ceb0bf59'}
+2019-08-12 19:03:11,010 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565625791.010312, 'data': 'test', 'token': '341a73c1e14523de668d0e48baf0f9b6d08f5759245b67f5fbbe2a00ceb0bf59'}
+2019-08-12 19:04:20,109 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565625860.108829, 'data': 'hello world', 'token': '43bcb4cb615a2cdc386211a4440a9cc4243b5316da8e8645b0a59cb85f34f05d'}
+2019-08-12 19:04:20,109 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565625860.108829, 'data': 'hello world', 'token': '43bcb4cb615a2cdc386211a4440a9cc4243b5316da8e8645b0a59cb85f34f05d'}
+2019-08-12 21:53:25,272 - INFO - Сервер запущен... localhost:8000
+2019-08-12 21:55:19,566 - INFO - Клиент подключился: 127.0.0.1:60901 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 60901)>]
+2019-08-13 17:55:31,846 - INFO - Сервер запущен... localhost:8000
+2019-08-13 17:55:51,205 - INFO - Клиент подключился: 127.0.0.1:53834 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53834)>]
+2019-08-13 17:56:10,868 - INFO - Клиент подключился: 127.0.0.1:53941 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53834)>, <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53941)>]
+2019-08-13 17:57:13,586 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565708233.266739, 'data': 'test', 'token': '9b4461a117f581c22e5a3552d7d66dd1ee5e27d3a2dd4fb9f716f8be0609f9f2'}
+2019-08-13 17:57:13,620 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565708233.266739, 'data': 'test', 'token': '9b4461a117f581c22e5a3552d7d66dd1ee5e27d3a2dd4fb9f716f8be0609f9f2'}
+2019-08-15 19:24:47,887 - INFO - Сервер запущен... localhost:8000
+2019-08-15 19:25:48,994 - INFO - Клиент подключился: 127.0.0.1:59367 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59367)>]
+2019-08-15 19:26:15,090 - INFO - Клиент подключился: 127.0.0.1:59477 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59367)>, <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59477)>]
+2019-08-15 19:26:43,529 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1565886403.412244, 'data': 'test', 'token': '4614967466cfa9f41f9c73fd65befa0b1c54fe6b4126287b4d652aa95cbafda0'}
+2019-08-15 19:26:43,555 - DEBUG - echo_controller: {'action': 'echo', 'time': 1565886403.412244, 'data': 'test', 'token': '4614967466cfa9f41f9c73fd65befa0b1c54fe6b4126287b4d652aa95cbafda0'}
+2019-08-15 19:27:25,116 - INFO - Сервер выключен.
+2019-08-19 19:03:55,357 - INFO - Сервер запущен... localhost:8000
+2019-08-19 19:05:24,091 - INFO - Клиент подключился: 127.0.0.1:54178 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 54178)>]
+2019-08-19 19:06:08,594 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1566230768.495048, 'data': 'test', 'token': 'b2089df3742a469d6e0507cbfbd9ef89b8d79921f6b801719b328a36c3554bb5'}
+2019-08-19 19:06:08,613 - DEBUG - echo_controller: {'action': 'echo', 'time': 1566230768.495048, 'data': 'test', 'token': 'b2089df3742a469d6e0507cbfbd9ef89b8d79921f6b801719b328a36c3554bb5'}
+2019-08-19 19:08:25,667 - INFO - Сервер запущен... localhost:8000
+2019-08-19 19:08:30,553 - INFO - Клиент подключился: 127.0.0.1:55234 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 55234)>]
+2019-08-19 19:08:36,528 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1566230916.502944, 'data': 'test', 'token': '26b18bfce6abaae84a49f09d66755de238ec1c37da642d52b9c5333a6c9e88ec'}
+2019-08-19 19:08:36,528 - DEBUG - echo_controller: {'action': 'echo', 'time': 1566230916.502944, 'data': 'test', 'token': '26b18bfce6abaae84a49f09d66755de238ec1c37da642d52b9c5333a6c9e88ec'}
+2019-08-19 19:09:22,988 - INFO - Клиент подключился: 127.0.0.1:55445 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 55234)>, <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 55445)>]
+2019-08-19 19:09:33,598 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1566230973.597713, 'data': 'data', 'token': 'aeeda45f2e5fd93bf966b8cc43bdd2add85b0748a5bedc9751851e30a4a490e9'}
+2019-08-19 19:09:33,598 - DEBUG - echo_controller: {'action': 'echo', 'time': 1566230973.597713, 'data': 'data', 'token': 'aeeda45f2e5fd93bf966b8cc43bdd2add85b0748a5bedc9751851e30a4a490e9'}
+2019-08-19 19:10:24,212 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1566231024.212318, 'data': 'test', 'token': 'a4a2fa01add498a1921ee13d81f450cd2f84691b85ca87dfa4159d375368bfd5'}
+2019-08-19 19:10:24,212 - DEBUG - echo_controller: {'action': 'echo', 'time': 1566231024.212318, 'data': 'test', 'token': 'a4a2fa01add498a1921ee13d81f450cd2f84691b85ca87dfa4159d375368bfd5'}
