@@ -11,11 +11,7 @@ import threading
 from argparse import ArgumentParser
 
 # из нашего модуля protocol импортируем
-from protocol import validate_request, make_response
-
 from handlers import handle_default_request
-
-from resolvers import resolve
 
 
 def read(sock, connections, requests, buffersize):
@@ -38,16 +34,9 @@ parser = ArgumentParser()
 
 # конфигурируем
 parser.add_argument(
-    # внутри описание того что будем парсить
-    # shortcut, имя конфигурационного файла, тип аргумента
     '-c', '--config', type=str,
-    # аргумент опционален(запуск со стандартными настройками), за что отвечает(help text)
     required=False, help='установки пути конфига'
 )
-'''
-if __name__ == '__main__': можем убрать после того как файл переименовали в __main__,
-тем самым перевели python на модульное выполнение(директория client)
-'''
 
 args = parser.parse_args()
 
@@ -57,8 +46,6 @@ default_config = {
     'port': 8000,
     'buffersize': 1024
 }
-# host = 'localhost'
-# port = 8000
 
 # если в args попал конфиг, то...
 if args.config: 
@@ -75,24 +62,11 @@ if args.config:
 
 host, port = (default_config.get('host'), default_config.get('port'))
 
-''' блок логирования '''
-# logger = logging.getLogger('main')
-# logger.setLevel(logging.DEBUG)
-#
-# formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-#
-# handler = logging.FileHandler('main.log')
-# handler.setFormatter(formatter)
-# handler.setLevel(logging.DEBUG)
-#
-# logger.addHandler(handler)
-''' '''
-
-''' упрощаем журналирование, минуя блок логирования'''
+''' упрощаем журналирование'''
 logging.basicConfig(
-    level=logging.DEBUG,
-    format= '%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
+    level = logging.DEBUG,
+    format = '%(asctime)s - %(levelname)s - %(message)s',
+    handlers = [
         logging.FileHandler('main.log', encoding='utf-8'),
         logging.StreamHandler()
     ]
@@ -112,22 +86,19 @@ try:
     # sock.setblocking(False)
     sock.settimeout(0)
 
-    sock.listen(5) # слушаем 5 соединений клиентов
+    # слушаем 5 соединений клиентов
+    sock.listen(5)
 
     ''' здесь и далее заменяем все ранее установленные print на logger.info'''
     logging.info(f'Сервер запущен... {host}:{port}')
-    # print(f'Сервер запущен... {host}:{port}')
 
     # ожидание клиентского подключения
     while True:
         try:
             client, address = sock.accept()
-
             # реализуем накомление клиентских подключений
             connections.append(client)
-
             logging.info(f'Клиент подключился: {address[0]}:{address[1]} | Подключений: {connections}')
-            # print(f'Клиент подключился: {address[0]}:{address[1]}')
         except :
             pass
 
@@ -141,8 +112,6 @@ try:
         for r_client in rlist:
             # расспаралеливаем чтение
             r_thread = threading.Thread(target=read, args=(r_client, connections, requests, default_config.get('buffersize')))
-            # byte_request = r_client.recv(default_config.get('buffersize'))
-            # requests.append(byte_request)
             r_thread.start()
 
         # отправка сообщений
@@ -154,33 +123,10 @@ try:
                 w_thread = threading.Thread(target=write,
                                             args=(w_client, connections, byte_response))
                 w_thread.start()
-                # w_client.send(byte_response)
-
-
-
-
-        '''
-        переносим вырезанную часть кода в handlers.py и 
-        вызовем ее ниже
-        '''
-
-        ''' удялем то что ниже так как это использовалось в блокирующем сервере'''
-        # byte_request = client.recv(default_config.get('buffersize'))
-
-        # byte_response = handle_default_request(byte_request)
-
-        # client.send(json.dumps(response).encode())
-        # client.send(byte_response)
-
-        # не разрываем соединение с клиентом
-        # client.close()
-        # print(f'Клиент отключился...')
 
     # обработаем исключение
 except KeyboardInterrupt:
     logging.info('Сервер выключен.')
-    # print('Сервер выключен.')
-
 
 
 
