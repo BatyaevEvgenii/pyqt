@@ -1,0 +1,5 @@
+/__pycache__/
+/!coverage.py
+/.coverage
+/.ipynb_checkpoints/
+/.idea/
