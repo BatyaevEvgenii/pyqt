@@ -83,3 +83,15 @@
 2019-08-19 19:09:33,598 - DEBUG - echo_controller: {'action': 'echo', 'time': 1566230973.597713, 'data': 'data', 'token': 'aeeda45f2e5fd93bf966b8cc43bdd2add85b0748a5bedc9751851e30a4a490e9'}
 2019-08-19 19:10:24,212 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1566231024.212318, 'data': 'test', 'token': 'a4a2fa01add498a1921ee13d81f450cd2f84691b85ca87dfa4159d375368bfd5'}
 2019-08-19 19:10:24,212 - DEBUG - echo_controller: {'action': 'echo', 'time': 1566231024.212318, 'data': 'test', 'token': 'a4a2fa01add498a1921ee13d81f450cd2f84691b85ca87dfa4159d375368bfd5'}
+2019-08-25 14:34:37,594 - INFO - Сервер запущен... localhost:8000
+2019-08-25 14:35:59,797 - INFO - Сервер выключен.
+2019-08-25 14:37:10,131 - INFO - Сервер запущен... localhost:8000
+2019-08-25 14:37:16,513 - INFO - Клиент подключился: 127.0.0.1:64517 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 64517)>]
+2019-08-25 14:38:32,431 - INFO - Сервер запущен... localhost:8000
+2019-08-25 14:38:36,637 - INFO - Клиент подключился: 127.0.0.1:56388 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 56388)>]
+2019-08-25 14:38:51,658 - INFO - Клиент подключился: 127.0.0.1:57941 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 56388)>, <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 57941)>]
+2019-08-25 14:40:09,736 - INFO - Сервер запущен... localhost:8000
+2019-08-25 14:40:17,905 - INFO - Клиент подключился: 127.0.0.1:50449 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 50449)>]
+2019-08-25 14:40:24,708 - INFO - Клиент подключился: 127.0.0.1:51158 | Подключений: [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 50449)>, <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 51158)>]
+2019-08-25 14:40:29,869 - DEBUG - Controller echo resolved with request: {'action': 'echo', 'time': 1566733229.701056, 'data': 'test', 'token': '9e3317b56abbf7874016c0e7998888db8a47b6daad80ee0f2b4713983eea5a5d'}
+2019-08-25 14:40:29,869 - DEBUG - echo_controller: {'action': 'echo', 'time': 1566733229.701056, 'data': 'test', 'token': '9e3317b56abbf7874016c0e7998888db8a47b6daad80ee0f2b4713983eea5a5d'}
