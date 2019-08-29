@@ -3,8 +3,6 @@
 '''
 
 import zlib
-
-
 from functools import wraps
 '''
 wraps - исключит переопределние атрибутов исходной функций
